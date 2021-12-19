@@ -1,0 +1,77 @@
+*{
+    background-color: rgb(66, 65, 65);
+}
+
+.container{
+    background-color: black;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+.left{
+    background-color: rgb(77, 72, 72);
+    float: right;
+    height: 100%;
+    width: 30%;
+    padding-left: 20px;
+}
+.right{
+    background-color: black;
+    height: 100%;
+    padding-left: 40px;
+
+    
+}
+.right input{
+    border: none;
+    border-bottom: 1px solid rgb(255, 253, 253);
+    width: 50%;
+    background-color: black;
+}
+.right textarea{
+    border: none;
+    border-bottom: 1px solid rgb(255, 253, 253);
+    width: 50%;
+    height: 150px;
+    background-color: black;
+
+}
+
+.right a {
+    background-color: rgb(44, 128, 24);
+    width: 200px;
+    color: white;
+    padding: 10px 135px;
+}
+
+.right h3 {
+    padding-top: 24px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    
+}
+.green{
+    color: green;
+    background-color: rgb(77, 72, 72);
+
+}
+.gray{
+    color: grey;
+    background-color: rgb(77, 72, 72);
+
+}
+.left h3{
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 72, 72);
+}
+h3,h1{
+text-align: center;
+}
+h3{
+    color: green;
+}
+h1{
+    color: white;
+}
