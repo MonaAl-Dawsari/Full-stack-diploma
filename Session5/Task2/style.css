@@ -42,7 +42,8 @@
     background-color: rgb(44, 128, 24);
     width: 200px;
     color: white;
-    padding: 10px 135px;
+    padding: 10px 152px;
+    /* margin-left: 20px; */
 }
 
 .right h3 {
