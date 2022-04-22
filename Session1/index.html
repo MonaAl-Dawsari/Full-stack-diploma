@@ -15,5 +15,46 @@
         <p>Our plant-based milks use natures ingredients that are transformed into milk allowing the coffee beans to be the hero flavour and they are formulated to make the perfect froth for barista coffee. That’s why they taste so good!</p>
         <img width="50%" src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG" alt="coffe cup">
     </div>
+
+
+
+    <script>
+        // const friends = ["ahmed", "sayed","eman","mouhammed","ameer", "Osama"];
+        // let letter = "a";
+        // for (let i =0;i<friends.length;i++){
+        //     if (friends[i].indexOf(letter)!=0 )
+        //     {
+        //         friends.slice(friends[i])
+        //         console.log(`${friends[i]}`);
+
+        //     }
+        //     //console.log(`${friends[i]}`);
+        // }
+
+        
+    
+
+
+
+//         const friends = ["ahmed", "sayed","eman","mouhammed","ameer", "osama"];
+
+// const startsWithA = friends.filter((friend) => friend.startsWith("a"));
+// !
+// console.log(startsWithA);
+
+
+const friends = ["Ahmed", "Sayed","Eman","Mouhammed","Ameer", "Osama"];
+
+function firstA(item) {
+  return item.toLowerCase().indexOf('a') != 0;
+}
+
+let startsWithA = friends.filter(firstA);
+
+console.log(startsWithA)
+
+
+
+    </script>
 </body>
 </html>
